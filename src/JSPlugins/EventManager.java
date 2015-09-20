@@ -1,12 +1,9 @@
 package JSPlugins;
 
-import java.io.File;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.net.JarURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
-import java.net.URLDecoder;
 import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.HashMap;
@@ -75,7 +72,6 @@ public class EventManager {
 		}
 		l.add(f);
 		listeners.put(name, l);
-		System.out.println("Listener registered for " + name);
 	}
 
 	/**
