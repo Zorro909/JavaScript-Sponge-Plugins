@@ -45,4 +45,5 @@
 		</dependency>
 	</dependencies>
 	<artifactId>JavaScriptPlugins</artifactId>
+	<groupId>JSPlugins</groupId>
 </project>
